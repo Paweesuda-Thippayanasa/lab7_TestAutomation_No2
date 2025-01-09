@@ -2,8 +2,8 @@
 Library           SeleniumLibrary
 
 *** Variables ***
-${CHROME_BROWSER_PATH}    E:/year3_2/softwareEng/Lab7_Test_Automation/ChromeForTesting2/chrome-win64/chrome.exe
-${CHROME_DRIVER_PATH}     E:/year3_2/softwareEng/Lab7_Test_Automation/ChromeForTesting2/chromedriver-win64/chromedriver.exe
+${CHROME_BROWSER_PATH}    ${EXECDIR}.${/}chrome-win64${/}chrome.exe
+${CHROME_DRIVER_PATH}     ${EXECDIR}.${/}chromedriver-win64${/}chromedriver.exe
 ${SERVER}                  localhost:7272
 ${BROWSER}                 Chrome
 ${DELAY}                   0.2
